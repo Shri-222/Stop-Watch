@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/Assets/stopwatch.png" type="image/x-icon">
+</head>
+<body>
+    <div class="berserk">
+            <h1>StopWatch</h1>
+        <div class="container">
+            <div class="cont1">
+                <div class="timer">
+                    <div id="min" class="count">0</div>
+                    <div id="sec" class="count">0</div>
+                    <div id="Msec" class="count">0</div>
+                </div>
+                <p>Min Sec Msec</p>
+                
+                <div class="timerBtns">
+                    <button id="start" class="btn" onclick="Start()">Start</button>
+                    <button id="pause" class="btn" onclick="Pause()">Pause</button>
+                    <button id="reset" class="btn" onclick="Reset()">Reset</button>
+                </div>
+            </div>
+            
+
+            <div id="timeOutHistry">
+                <h3>StopWatch Timer History</h3>
+                <br>
+                <p>Min Sec Msec</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="App.js"></script>
+</body>
+</html>
